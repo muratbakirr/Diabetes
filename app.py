@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from sklearn.preprocessing import StandardScaler
 
 def load_model(model_path, scaler_path):
     model = joblib.load(model_path)
